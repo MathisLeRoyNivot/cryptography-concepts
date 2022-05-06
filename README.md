@@ -1,12 +1,11 @@
 <h1 align="center">🔐 Cryptography Concepts 🔐</h1>
 
-## 7 Cryptography concepts 🔐
+## Cryptography concepts 🔐
 
 - [**Hash**](#hash)
 - [**Salt**](#salt)
 - [**HMAC**](#hmac)
 - [**Symmetric Encryption**](#symmetric-encryption)
-- [**Keypairs**](#keypair)
 - [**Asymmetric Encryption**](#asymmetric-encryption)
 - [**Sign**](#sign)
 
@@ -15,6 +14,14 @@
     <div align="center">
         <img src="./docs/hash.png" alt="Hash image" title="Hash image"/>
     </div>
+    
+### Test the `hash` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+```bash
+node hash.js
+```
+    
 </div>
 
 <div id="salt">
@@ -22,6 +29,14 @@
     <div align="center">
         <img src="./docs/salt.png" alt="Salt image" title="Salt image"/>
     </div>
+
+### Test the `salt` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+```bash
+node salt.js
+```
+
 </div>
 
 <div id="hmac">
@@ -29,6 +44,15 @@
     <div align="center">
         <img src="./docs/hmac.png" alt="HMAC image" title="HMAC image"/>
     </div>
+
+### Test the `hmac` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+
+```bash
+node hmac.js
+```
+
 </div>
 
 <div id="symmetric-encryption">
@@ -36,13 +60,16 @@
     <div align="center">
         <img src="./docs/symmetric-encrypt.png" alt="Symmetric Encryption image" title="Symmetric Encryption image"/>
     </div>
-</div>
 
-<div id="keypair">
-    <h2>Keypair</h2>
-    <div align="center">
-        <img src="./docs/keypair.png" alt="Keypair image" title="Keypair image"/>
-    </div>
+### Test the `symmetric encryption` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+
+```bash
+node symmetric-encrypt.js
+```
+
+
 </div>
 
 <div id="asymmetric-encryption">
@@ -50,6 +77,15 @@
     <div align="center">
         <img src="./docs/asymmetric-encrypt.png" alt="Asymmetric Encryption image" title="Asymmetric Encryption image"/>
     </div>
+
+### Test the `asymmetric encryption` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+
+```bash
+node asymmetric-encrypt.js
+```
+
 </div>
 
 <div id="sign">
@@ -57,4 +93,13 @@
     <div align="center">
         <img src="./docs/sign.png" alt="Sign image" title="Sign image"/>
     </div>
+
+### Test the `sign` cryptography concept
+
+In order to do so, execute the following command on your terminal:
+
+```bash
+node sign.js
+```
+
 </div>
